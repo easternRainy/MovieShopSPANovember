@@ -73,3 +73,14 @@ Notification => subscribe to the channel and bell icon
 Only when you subscribe you are gonna run the observable... Lazy
 
 var bigmovies =  movies.where(m => m.revenue >1000).Tolist();
+
+#### CORS Error
+ Cross Origin Resource sharing
+
+client (Angular -browser) localhost:4200, browser security that will prevent you from seeing the data
+Server (API) => localhost:72312
+
+Enable CORS at the server so that it will add a special headers in HTTP that will tell browser to trust this connection (API)
+
+
+
