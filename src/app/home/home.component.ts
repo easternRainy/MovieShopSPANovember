@@ -21,8 +21,7 @@ export class HomeComponent implements OnInit {
       // we need to initalize our data object
       m => {
         this.movieCards = m;
-        console.log('insied the home component OnInit method');
-        console.log(this.movieCards);
+
       }
 
     )
